@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+   
+}
+
+.container{
+    /* height: 100vh; */
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(10, 50, 136); */
+    background-image: url(../image/2.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    /* width: 1200px;*/
+    height: 100vh; 
+    color: #525869;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+}
+
+.form-box input{
+    border: none;
+    border-bottom: 2px solid rgb(62, 60, 75);
+    padding: 20px 40px;
+}
+
+.form-box button{
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+}
+
+
+.output-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
